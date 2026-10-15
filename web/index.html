@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Heritage Explorer – Keeladi & Ancient Tamil Digital Archaeological Platform</title>
+  <meta name="description" content="Explore ancient Tamil heritage, Sangam era urbanization at Keeladi (580 BCE), Tamil-Brahmi epigraphy, brick architecture, and scientific archaeometry from official archaeological sources.">
+  <meta name="keywords" content="Keeladi, Tamil-Brahmi, Sangam Age, Vaigai River Valley, Epigraphy, BharatSHRI, Tamil Nadu Archaeology, Inscriptions, Ancient Tamil History">
+  <meta name="author" content="AI Heritage Explorer Research Team">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo-group" id="site-logo">
+        <div class="logo-icon">🏛️</div>
+        <div class="logo-text">
+          <h1>AI Heritage Explorer</h1>
+          <div class="subtitle">கீழடி & தமிழ் மரபு மேடை</div>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a class="nav-link active" onclick="document.querySelector('[data-tab=exhibits]').click()">Exhibits</a></li>
+          <li><a class="nav-link" onclick="document.querySelector('[data-tab=epigraphy]').click()">தமிழி Epigraphy</a></li>
+          <li><a class="nav-link" onclick="document.querySelector('[data-tab=timeline]').click()">Timeline</a></li>
+          <li><a class="nav-link" onclick="document.querySelector('[data-tab=science]').click()">Science Lab</a></li>
+          <li><a class="nav-link" onclick="document.querySelector('[data-tab=data]').click()">Dataset</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="btn-status-badge">
+          <span class="pulse-dot"></span>
+          <span>53 Records • 580 BCE Validated</span>
+        </div>
+
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
+          <button class="lang-btn" data-lang="ta" onclick="setLanguage('ta')">தமிழ்</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-pill" id="hero-pill">
+        🏺 Sangam Era • 6th Century BCE (580 BCE AMS Validated)
+      </div>
+
+      <h2 class="hero-title" id="hero-title">
+        Unearthing the Sangam Era: The Ancient Vaigai River Valley Civilization
+      </h2>
+
+      <p class="hero-desc" id="hero-desc">
+        A source-grounded digital repository and research suite preserving ancient Tamil heritage. Explore systematic excavations from Keeladi Site Museum and the national epigraphical corpus of Archaeological Survey of India (BharatSHRI).
+      </p>
+
+      <div class="hero-actions">
+        <button class="btn-primary" id="btn-explore" onclick="document.querySelector('[data-tab=exhibits]').click(); document.getElementById('search-input').focus();">
+          Explore 53 Artifacts ➔
+        </button>
+        <button class="btn-secondary" id="btn-epigraphy" onclick="document.querySelector('[data-tab=epigraphy]').click();">
+          🔤 தமிழி Epigraphy Lab
+        </button>
+      </div>
+
+      <!-- KPI Metrics -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-number"><span id="kpi1-num">580</span> <span class="unit" id="kpi1-unit">BCE</span></div>
+          <div class="kpi-label" id="kpi1-label">AMS Carbon-14 Dating</div>
+          <div class="kpi-sub" id="kpi1-sub">Beta Analytic (Beta-499770)</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-number"><span id="kpi2-num">53</span> <span class="unit" id="kpi2-unit">Recs</span></div>
+          <div class="kpi-label" id="kpi2-label">Verified Artifact Records</div>
+          <div class="kpi-sub" id="kpi2-sub">100% Source Provenance</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-number"><span id="kpi3-num">509</span> <span class="unit" id="kpi3-unit">Assets</span></div>
+          <div class="kpi-label" id="kpi3-label">Artifact Media Discovered</div>
+          <div class="kpi-sub" id="kpi3-sub">Terracotta, Beads, Inscriptions</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-number"><span id="kpi4-num">45</span> <span class="unit" id="kpi4-unit">Vols</span></div>
+          <div class="kpi-label" id="kpi4-label">South Indian Inscriptions</div>
+          <div class="kpi-sub" id="kpi4-sub">ASI Epigraphy Branch Mysore</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Exploration Hub -->
+  <main class="container">
+    <!-- View Navigation Tabs -->
+    <nav class="view-nav" aria-label="Section View Tabs">
+      <ul class="tab-list">
+        <li>
+          <button class="tab-btn active" data-tab="exhibits" id="tab-btn-exhibits">
+            🏛️ Exhibits & Artifacts
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="epigraphy" id="tab-btn-epigraphy">
+            🔤 Tamil-Brahmi (தமிழி) Lab
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="timeline" id="tab-btn-timeline">
+            ⏳ Sangam Timeline
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="science" id="tab-btn-science">
+            🔬 Archaeometry Lab
+          </button>
+        </li>
+        <li>
+          <button class="tab-btn" data-tab="data" id="tab-btn-data">
+            📊 Datasets & Exports
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Panel 1: Exhibits & Artifacts -->
+    <section class="tab-content-panel" id="tab-panel-exhibits">
+      <!-- Search & Control Bar -->
+      <div class="control-bar">
+        <div class="search-row">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" 
+                   id="search-input" 
+                   class="search-input" 
+                   placeholder="Search inscriptions, sites (Keeladi, Madurai), materials, Tamil terms..."
+                   autocomplete="off">
+            <button class="clear-search-btn" id="clear-search" aria-label="Clear search">✕</button>
+          </div>
+
+          <select id="sort-select" class="control-dropdown" aria-label="Sort records">
+            <option value="default">Featured Chronological</option>
+            <option value="alpha">Title (A–Z)</option>
+            <option value="confidence">High Confidence First</option>
+          </select>
+        </div>
+
+        <div class="filter-pills-row" id="filter-pills-row">
+          <!-- Dynamic Pills rendered via JS -->
+        </div>
+
+        <div class="results-meta">
+          <span id="results-count">Showing 53 archaeological records</span>
+          <span style="font-family: var(--font-mono); font-size: 0.75rem;">FTS5 Relational Index Active</span>
+        </div>
+      </div>
+
+      <!-- Card Grid -->
+      <div class="card-grid" id="exhibits-grid">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Panel 2: Tamil-Brahmi Epigraphy Lab -->
+    <section class="tab-content-panel" id="tab-panel-epigraphy" style="display: none;">
+      <div id="epigraphy-container"></div>
+    </section>
+
+    <!-- Panel 3: Sangam Timeline -->
+    <section class="tab-content-panel" id="tab-panel-timeline" style="display: none;">
+      <div id="timeline-container"></div>
+    </section>
+
+    <!-- Panel 4: Archaeometry Science Lab -->
+    <section class="tab-content-panel" id="tab-panel-science" style="display: none;">
+      <div id="science-container"></div>
+    </section>
+
+    <!-- Panel 5: Datasets & Exports -->
+    <section class="tab-content-panel" id="tab-panel-data" style="display: none;">
+      <div id="data-container"></div>
+    </section>
+  </main>
+
+  <!-- Artifact Detail Modal -->
+  <div class="modal-overlay" id="record-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="modal-title">Artifact Details</h3>
+          <div class="modal-ta-title" id="modal-ta-title"></div>
+        </div>
+        <button class="modal-close-btn" onclick="closeRecordModal()" aria-label="Close dialog">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-meta-grid" id="modal-meta-grid">
+          <!-- Rendered via JS -->
+        </div>
+
+        <h4 class="modal-section-title">📖 Description & Archaeological Context</h4>
+        <div class="modal-text" id="modal-desc"></div>
+
+        <h4 class="modal-section-title">🔍 Excavation Evidence & Quotes</h4>
+        <div class="evidence-box" id="modal-quote" style="display: none; margin-top: 0.5rem; font-size: 0.9rem;"></div>
+
+        <div style="margin-top: 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+          <a id="modal-source-link" href="#" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size: 0.85rem;">
+            Explore Source ↗
+          </a>
+
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn-secondary" onclick="copyCitation(null, event)" style="font-size: 0.85rem;">
+              📋 Copy Citation
+            </button>
+            <button class="btn-primary" onclick="closeRecordModal()" style="font-size: 0.85rem;">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>AI Heritage Explorer</h4>
+          <p>
+            An offline-capable digital preservation platform documenting ancient Tamil history, epigraphy, and the Keeladi river valley civilization (580 BCE). All data is curated strictly from official government archaeology portals.
+          </p>
+          <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+            <span class="meta-chip">NFC Tamil Normalization</span>
+            <span class="meta-chip">74 Standard Schema Fields</span>
+            <span class="meta-chip">FTS5 Search Enabled</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Official Sources</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.keeladimuseum.tn.gov.in" target="_blank" rel="noopener">Keeladi Site Museum (TN Arch)</a></li>
+            <li><a href="https://bharatshri.asi.gov.in" target="_blank" rel="noopener">ASI BharatSHRI Repository</a></li>
+            <li><a href="https://tnarch.gov.in" target="_blank" rel="noopener">TN Dept. of Archaeology</a></li>
+            <li><a href="https://asi.nic.in" target="_blank" rel="noopener">Archaeological Survey of India</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Laboratory Reports</h4>
+          <ul class="footer-links">
+            <li><a href="#" onclick="document.querySelector('[data-tab=science]').click()">Beta Analytic Miami (C-14)</a></li>
+            <li><a href="#" onclick="document.querySelector('[data-tab=science]').click()">Deccan College Pune (Faunal)</a></li>
+            <li><a href="#" onclick="document.querySelector('[data-tab=science]').click()">VIT University (Mortar Lime)</a></li>
+            <li><a href="#" onclick="document.querySelector('[data-tab=science]').click()">Univ. of Pisa (Petrography)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 AI Heritage Explorer – Open Scholarly Archaeology Repository. Public Digital Cultural Heritage.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.75rem;">Engineered for Research & Preservation</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

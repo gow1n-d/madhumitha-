@@ -1,0 +1,4174 @@
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head id="ctl00_Head1"><link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Bharat SHRI – Indian Heritage, History and Culture Portal" /><meta name="keywords" content="Bharat, SHRI, Indian History, Culture, Heritage" /><meta name="author" content="Bharat SHRI" /><title>
+
+	Bharat SHRI
+
+</title>
+
+     <script>
+
+         document.cookie = "JS_OK=1; path=/";
+
+</script>
+
+    <!-- Google Fonts (Optimized) -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+
+  
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1CmS3YzK0O8V7k8tNqLk4Z8YkE2Yl7Xr8O+ZJxw0R2ZC+F5E5N5KJ+q+X9FQKz5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Site CSS -->
+
+    <link rel="stylesheet" href="css/style.css?v=2.12" /><link rel="stylesheet" href="css/style1.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+    <style>
+
+        
+
+   /* ----------------------------------------
+
+   GLOBAL FIX – prevents slider/footer from hiding buttons
+
+----------------------------------------- */
+
+html, body {
+
+    isolation: isolate !important;
+
+}
+
+
+
+
+
+.footer-track,
+
+.background-item,
+
+.data-item {
+
+    transform: none !important;
+
+    translate: none !important;
+
+}
+
+
+
+/* ----------------------------------------
+
+   FONT RESIZER – Works on All Screens
+
+----------------------------------------- */
+
+.font-resizer {
+
+    position: fixed !important;
+
+    bottom: 20px !important;
+
+    right: 20px !important;
+
+    display: flex !important;      /* Always visible */
+
+    visibility: visible !important;
+
+    opacity: 1 !important;
+
+    gap: 8px;
+
+    align-items: center;
+
+    padding: 8px 16px;
+
+    background: #bc6c25;
+
+    border-radius: 8px;
+
+    z-index: 2147483647 !important; 
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+    pointer-events: auto !important;
+
+    transform: scale(1);
+
+    transform-origin: bottom right;
+
+    transition: transform 0.2s ease-in-out;
+
+}
+
+
+
+/* Buttons */
+
+.font-btn {
+
+    background: #283618ff;
+
+    color: #fff;
+
+    border: none;
+
+    padding: 4px 10px;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+}
+
+
+
+.font-btn:hover {
+
+    background: #444;
+
+}
+
+
+
+/* ----------------------------------------
+
+   MOBILE (up to 767px)
+
+----------------------------------------- */
+
+@media (max-width: 767px) {
+
+    .font-resizer {
+
+        bottom: 15px !important;
+
+        right: 15px !important;
+
+        padding: 4px 8px !important;
+
+    }
+
+    .font-btn {
+
+        font-size: 18px !important;
+
+        padding: 3px 8px !important;
+
+    }
+
+}
+
+
+
+/* ----------------------------------------
+
+   TABLETS (768px – 1024px)
+
+----------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .font-resizer {
+
+        bottom: 20px !important;
+
+        right: 20px !important;
+
+        transform: scale(1);
+
+    }
+
+}
+
+
+
+/* ----------------------------------------
+
+   LARGE MONITORS (1920px – 2499px)
+
+----------------------------------------- */
+
+@media (min-width: 1600px) and (max-width: 2499px) {
+
+    .font-resizer {
+
+        bottom: 80px !important;
+
+        right: 30px !important;
+
+        transform: scale(1.2);
+
+        display: flex !important;
+
+        visibility: visible !important;
+
+    }
+
+}
+
+
+
+/* ----------------------------------------
+
+   ULTRA-WIDE / 4K (2500px+)
+
+----------------------------------------- */
+
+@media (min-width: 2500px) {
+
+    .font-resizer {
+
+        bottom: 80px !important;
+
+        right: 50px !important;
+
+        transform: scale(1.8);
+
+        display: flex !important;
+
+        visibility: visible !important;
+
+    }
+
+}
+
+
+
+
+
+/* Master page global font sizing using rem */
+
+html {
+
+    font-size: 100%; /* Base font size = 16px */
+
+}
+
+
+
+/* Top bar */
+
+.top-bar .govt-text { font-size: 1rem; }  /* 16px */
+
+.nav-menu li a { font-size: 0.875rem; }   /* 14px */
+
+.footer { font-size: 0.875rem; }
+
+
+
+/* Headings scale automatically */
+
+h1 { font-size: 2rem; }   /* 32px */
+
+h2 { font-size: 1.75rem; } /* 28px */
+
+h3 { font-size: 1.5rem; }  /* 24px */
+
+
+
+/* Paragraphs, links, list items */
+
+p, span, li, a { font-size: 1rem; }
+
+
+
+/* News cards & other sections */
+
+.news-card .news-content p { font-size: 1rem; }
+
+.news-card .news-meta span { font-size: 0.875rem; }
+
+
+
+/* Sliders captions */
+
+.hero-slider .caption h2 { font-size: 1.5rem; }
+
+.hero-slider .caption p { font-size: 1rem; }
+
+
+
+
+
+.news-card {
+
+    padding: 1em;  /* instead of 16px */
+
+    margin-bottom: 1.5em;
+
+}
+
+
+
+.hero-slider .caption {
+
+    padding: 1em 2em; /* scales with font size */
+
+}
+
+
+
+img, .hero-slider, .swiper-slide {
+
+    width: 100%;
+
+    height: auto;
+
+    max-width: 100%;
+
+}
+
+/* Scrolling text box */
+
+.scroll-text1 {
+
+    font-size: 1rem; /* use rem instead of px */
+
+    line-height: 1.5; /* optional for readability */
+
+}
+
+
+
+/* Info marquee */
+
+.info-marquee {
+
+    font-size: 1rem; /* use rem */
+
+    font-weight: 500;
+
+   
+
+}
+
+/* Section main heading */
+
+.feature-main-heading h2 {
+
+    font-size: 2rem;  /* scalable font */
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+/* Feature card headings */
+
+.feature-card h3 {
+
+    font-size: 1.25rem; /* scalable */
+
+    margin-bottom: 0.5rem;
+
+}
+
+
+
+/* Feature card paragraph text */
+
+.feature-card p {
+
+    font-size: 1rem; /* scalable */
+
+    line-height: 1.5;
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+    <!-- ASP.NET Page-specific Head Content -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+
+/* NAV MENU TOGGLE */
+
+document.getElementById("navToggle")?.addEventListener("click", function () {
+
+    document.getElementById("navMenu").classList.toggle("show");
+
+});
+
+
+
+/* DROPDOWN CLICK FIX */
+
+document.querySelectorAll(".dropdown-link").forEach(link => {
+
+    link.addEventListener("click", function (e) {
+
+
+
+        e.preventDefault();
+
+        e.stopPropagation();   // 🔥 CRITICAL
+
+
+
+        const parent = this.closest(".dropdown-nav");
+
+
+
+        // Close other dropdowns
+
+        document.querySelectorAll(".dropdown-nav").forEach(item => {
+
+            if (item !== parent) item.classList.remove("active");
+
+        });
+
+
+
+        parent.classList.toggle("active");
+
+    });
+
+});
+
+</script>
+
+<script>
+
+function toggleLangMenu() {
+
+    const menu = document.getElementById("langMenu");
+
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+
+}
+
+
+
+/* Close dropdown when clicking outside */
+
+document.addEventListener("click", function (e) {
+
+    const dropdown = document.querySelector(".lang-dropdown");
+
+    if (!dropdown.contains(e.target)) {
+
+        document.getElementById("langMenu").style.display = "none";
+
+    }
+
+});
+
+</script>
+
+
+
+</head>
+
+<body>
+
+    <form method="post" action="./index" id="aspnetForm">
+
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAxNDA5MTg4MQ9kFgJmD2QWAgIDD2QWAgIBD2QWBGYPFgIeCWlubmVyaHRtbAUFMjQ4MTZkAgMPFgIfAAXrDjxkaXYgY2xhc3M9J25ld3MtbGlzdCc+PGEgaHJlZj0nZGlzY292ZXJpZXMuYXNweCNkaXNjb3Zlcnk0JyBjbGFzcz0nbmV3cy1saW5rJz48ZGl2IGNsYXNzPSduZXdzLWNhcmQnPjxkaXYgY2xhc3M9J25ld3MtbG9nbyc+PGltZyBzcmM9J2Fzc2V0cy9pbWcvMS5qcGcnPjwvZGl2PjxkaXYgY2xhc3M9J25ld3MtY29udGVudCc+PGRpdiBjbGFzcz0nbmV3cy1tZXRhJz48c3Bhbj5GaXJzdCBJbmRpYW4gRXBpZ3JhcGhpY2FsIFJlZmVyZW5jZSB0byBIYWxsZXkncyBDb21ldCBmb3VuZCBpbiBTcmlzYWlsYW0gQ29wcGVyIFBsYXRlIENoYXJ0ZXIsQW5kaHJhIFByYWRlc2gsZGF0ZWQgMTQ1NiBDRTwvc3Bhbj48L2Rpdj48cD5IYWxsZXkncyBDb21ldCBpcyB0aGUgb25seSBrbm93biBzaG9ydC1wZXJpb2QgY29tZXQgdGhhdCBpcyBjb25zaXN0ZW50bHkgdmlzaWJsZSB0byB0aGUgbmFrZWQgZXllIGZyb20gRWFydGgsIGFwcGVhcmluZyBldmVyeSA3MuKAkzgwIHllYXJzLkR1ZSB0byBpdHMgaW50cmluc2ljIGJyaWdodG5lc3MsIGFib3V0IG9uZSBlaWdodGggb2YgYWxsIGNvbWV0PC9wPjwvZGl2PjwvZGl2PjwvYT48YSBocmVmPSdkaXNjb3Zlcmllcy5hc3B4I2Rpc2NvdmVyeTMnIGNsYXNzPSduZXdzLWxpbmsnPjxkaXYgY2xhc3M9J25ld3MtY2FyZCc+PGRpdiBjbGFzcz0nbmV3cy1sb2dvJz48aW1nIHNyYz0nYXNzZXRzL2ltZy8xLmpwZyc+PC9kaXY+PGRpdiBjbGFzcz0nbmV3cy1jb250ZW50Jz48ZGl2IGNsYXNzPSduZXdzLW1ldGEnPjxzcGFuPkthbHnEgW5pIENoxIFsdWt5YSBpbnNjcmlwdGlvbiBmcm9tIFllbmlrZXBhbGxpLFRlbGFuZ2FuYTwvc3Bhbj48L2Rpdj48cD5UaGlzIGluc2NyaXB0aW9uIGlzIGVuZ3JhdmVkIG9uIGEgcGlsbGFyLGZvdW5kIGluIHRoZSB2aWxsYWdlIFllbmlrZXBhbGxpLE1vaW5hYmFkIG1hbmRhbCAoTmVhciBDaGlsa3VyIHZpbGxhZ2UpLFJhbmdhIFJlZGR5IGRpc3RyaWN0LFRlbGFuZ2FuYS48L3A+PC9kaXY+PC9kaXY+PC9hPjxhIGhyZWY9J2Rpc2NvdmVyaWVzLmFzcHgjZGlzY292ZXJ5MicgY2xhc3M9J25ld3MtbGluayc+PGRpdiBjbGFzcz0nbmV3cy1jYXJkJz48ZGl2IGNsYXNzPSduZXdzLWxvZ28nPjxpbWcgc3JjPSdhc3NldHMvaW1nLzEuanBnJz48L2Rpdj48ZGl2IGNsYXNzPSduZXdzLWNvbnRlbnQnPjxkaXYgY2xhc3M9J25ld3MtbWV0YSc+PHNwYW4+S3Jpc2huYWTEk3ZhcsSBeWEgY29wcGVyIHBsYXRlcyBmcm9tIFLEgWth4bmtbGEsQW5kaHJhIFByYWRlc2g8L3NwYW4+PC9kaXY+PHA+QSBzZXQgb2YgY29wcGVyIHBsYXRlcyBmb3VuZCBpbiB0aGUgdmlsbGFnZSBSxIFrYeG5rWxhLEFuYW50YXB1ciBkaXN0cmljdCxBLlAuLHByZXNlbnRseSBpbiB0aGUgcG9zc2Vzc2lvbiBvZiBTcmkuU3VkaGFrYXIgVGhvb21hdGksSHlkZXJhYmFkLjwvcD48L2Rpdj48L2Rpdj48L2E+PGEgaHJlZj0nZGlzY292ZXJpZXMuYXNweCNkaXNjb3ZlcnkxJyBjbGFzcz0nbmV3cy1saW5rJz48ZGl2IGNsYXNzPSduZXdzLWNhcmQnPjxkaXYgY2xhc3M9J25ld3MtbG9nbyc+PGltZyBzcmM9J2Fzc2V0cy9pbWcvMS5qcGcnPjwvZGl2PjxkaXYgY2xhc3M9J25ld3MtY29udGVudCc+PGRpdiBjbGFzcz0nbmV3cy1tZXRhJz48c3Bhbj5OxIF5YWthcyBvZiBLxIFsYWhhc3RpIGNoaWVmIEvFq21hcmEgVmVua2Hhua1hcHBhIE7EgXlha2EgQ29wcGVyIHBsYXRlcyBmcm9tIEvEgWxhaGFzdGksQS5QLjwvc3Bhbj48L2Rpdj48cD5BIHNldCBvZiBjb3BwZXIgcGxhdGVzIGluIHRoZSBwb3NzZXNzaW9uIG9mIERyLlBhcnVzdXJhbSBHdXJ1a3VsLERoYW5kYWRoaWvEgXJpIG9mIMWacmlrxIFsYWhhc3RpIERldmFzdGFuYW0sS2FsYWhhc3RpLFRpcnVwYXRpIGRpc3RyaWN0LEEuUC48L3A+PC9kaXY+PC9kaXY+PC9hPjwvZGl2PmRkVAEcIH6HYXtKy4ynjAchNYcVasBUrH7pRR9saRJ4VbU=" />
+
+
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQ7guaPa0lOllqtcjkmz2HkfWL5aaHMHyNEIaHv8TqKnjJ3ZaYbLeBXeGGaB/T2ZV3N5XVbrp0y8RANQtoF5cyQqL+WEUO+u77CQ2ZngatWveYbnhv9HFRRvkbS8Y4k0BQ=" />
+
+    
+
+    <div class="header-fixed">
+
+    <div class="top-bar">
+     <div class="top-bar">
+
+    <div class="top-left">
+
+       <img src="assets/img/logo2.png" class="flag-img" alt="India Flag">
+
+        <span class="govt-text">Government of India</span>
+
+    </div>
+
+
+
+    <div class="top-right">
+
+        <div class="dropdown">
+
+            <a href="#" class="top-btn dropdown-btn">Login/ Register⬇</a>
+
+            <div class="dropdown-menu">
+
+            <a href="UserLogin.aspx" target="_blank">User Login / Register</a>
+
+                <a href="AsiLogin.aspx" target="_blank">ASI Login</a>
+
+            </div>
+
+        </div>
+
+        <a href="UserFeedBack.aspx" class="top-btn">Feedback</a>
+
+        <div class="lang-dropdown">
+
+    <a href="javascript:void(0);" class="top-btn lang-btn" onclick="toggleLangMenu()">
+
+        🌐 Language ⬇
+
+    </a>
+
+    <div class="lang-menu" id="langMenu">
+
+        <a href="?lang=en">English</a>
+
+        <a href="?lang=hi">हिन्दी</a>
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+</div>
+    </div>
+
+    <div class="logo-section">
+    <!-- ===========================
+
+   logo section
+
+=========================== -->
+
+<section class="logo-section">
+
+<h1 style="display:none;">Bharat SHRI</h1>
+
+    <div class="logo-wrapper">
+
+        
+
+      <div class="logo-left">
+
+   <img src="assets/img/bharathshreelogo.png" class="main-logo" alt="Bharat SHRI Logo">
+
+
+
+    <div class="logo-text">
+
+    BharatSHRI
+
+
+
+    <div class="logo-subtext">
+
+        Bharat Shared Repository of Inscriptions
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+
+        <div class="logo-right">
+
+           <a href="https://culture.gov.in/" target="_blank">
+
+    <img src="assets/img/logo3.png"
+
+         class="small-logo"
+
+         alt="Ministry of Culture Logo">
+
+</a>
+
+         
+
+           <a href="https://asi.nic.in/" target="_blank">
+
+    <img src="assets/img/logo8.png" class="small-logo" alt="Archaeological Survey of India Logo">
+
+</a>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+    </div>
+
+    <nav class="main-navbar">
+       
+
+
+
+
+
+<!-- ===========================
+
+   nav bar
+
+=========================== -->
+
+<nav class="main-navbar">
+
+    <div class="nav-container">
+
+
+
+        <!-- Menu -->
+
+        <ul class="nav-menu">
+
+    <li><a href="index.aspx">Home</a></li>
+
+
+
+    <!-- ABOUT DROPDOWN -->
+
+    <li class="dropdown-nav">
+
+        <a href="#" class="about-btn">About ▼</a>
+
+        <ul class="sub-menu">
+
+            <li><a href="About.aspx">ASI</a></li>
+
+        
+
+            <li class="dropdown-nav">
+
+            <a href="#" class="about-btn">Epigraphy ▼</a>
+
+        <ul class="sub-menu">
+
+            <li><a href="AboutEpigraphy.aspx">Dravidian & Sanskrit Inscription</a></li> 
+
+            <li><a href="arabic.aspx">Arabic & Persian Inscription</a></li> 
+
+        </ul>
+
+            </li>
+
+              <li><a href="inscription.aspx">Inscription</a></li>
+
+       
+
+              <li><a href="AboutEstampages.aspx">Estampages</a></li>
+
+            
+
+        </ul>
+
+    </li>
+
+       <li><a href="BharatShri.aspx">BharatSHRI </a></li>
+
+        <li><a href="FrontEndSearch.aspx">Search Inscriptions</a></li>
+
+    <li><a href="PressRelease.aspx">Press Release</a></li>
+
+     <li class="dropdown-nav">
+
+            <a href="#" class="about-btn">Gallery ▼</a>
+
+        <ul class="sub-menu">
+
+            <li><a href="vedios.aspx">Video</a></li> 
+
+            <li><a href="gallery.aspx">Photos</a></li> 
+
+        </ul>
+
+            </li>
+
+    <li><a href="discoveries.aspx">Discoveries</a></li>
+
+    <li><a href="contact.aspx">Contact</a></li>
+
+
+
+    <li><a href="howtouse.aspx">How to Use</a></li>
+
+    
+
+</ul>
+
+
+
+        <!-- Toggle Button -->
+
+        <div class="nav-toggle" id="navToggle">☰</div>
+
+
+
+    </div>
+
+
+
+</nav>
+
+
+    </nav>
+
+</div>
+
+
+
+<!-- ===========================
+
+   HEADER
+
+=========================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+
+        
+
+<style type="text/css">
+
+
+
+.stats-container {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    gap: 18px;
+
+    padding: 18px 25px;
+
+    box-sizing: border-box;
+
+    background: #f8f5e8;
+
+}
+
+
+
+.stat-box {
+
+    position: relative;
+
+    flex: 1;
+
+    max-width: 360px;
+
+    min-height: 105px;
+
+
+
+    background: #ffffff;
+
+
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 12px;
+
+
+
+    padding: 18px 22px;
+
+
+
+    box-sizing: border-box;
+
+
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+
+
+
+    transition: all 0.25s ease;
+
+}
+
+
+
+.stat-box:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 7px 20px rgba(0,0,0,0.15);
+
+}
+
+
+
+.stat-title {
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    color: #bc6c25ff;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.stat-number {
+
+    font-size: 28px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #222222;
+
+}
+
+
+
+.stat-icon {
+
+    position: absolute;
+
+    right: 20px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+
+
+    width: 36px;
+
+    height: 36px;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+    border-radius: 8px;
+
+
+
+    background: #f1f1f1;
+
+    color: #555555;
+
+
+
+    font-size: 18px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .stats-container {
+
+        flex-direction: column;
+
+        padding: 12px 15px;
+
+    }
+
+
+
+    .stat-box {
+
+        width: 100%;
+
+        max-width: none;
+
+    }
+
+}
+
+
+
+</style>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+
+
+        var counters = document.querySelectorAll(".counter");
+
+
+
+        counters.forEach(function (counter) {
+
+
+
+            var target = parseInt(
+
+            counter.getAttribute("data-target"),
+
+            10
+
+        );
+
+
+
+            if (isNaN(target)) {
+
+                target = 0;
+
+            }
+
+
+
+            var duration = 1800;
+
+            var start = 0;
+
+            var startTime = null;
+
+
+
+            function animateCounter(timestamp) {
+
+
+
+                if (!startTime) {
+
+                    startTime = timestamp;
+
+                }
+
+
+
+                var progress =
+
+                Math.min(
+
+                    (timestamp - startTime) / duration,
+
+                    1
+
+                );
+
+
+
+                var current =
+
+                Math.floor(
+
+                    progress * target
+
+                );
+
+
+
+                counter.innerText =
+
+                current.toLocaleString("en-IN");
+
+
+
+                if (progress < 1) {
+
+                    requestAnimationFrame(
+
+                    animateCounter
+
+                );
+
+                }
+
+                else {
+
+                    counter.innerText =
+
+                    target.toLocaleString("en-IN");
+
+                }
+
+            }
+
+
+
+            requestAnimationFrame(
+
+            animateCounter
+
+        );
+
+
+
+        });
+
+
+
+    });
+
+</script>
+
+<div class="hero-slider">
+
+    <div class="swiper" id="heroSwiper">
+
+        <div class="swiper-wrapper">
+
+
+
+            <div class="swiper-slide">
+
+             <img src="assets/img/slider/1.jpg" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption">
+
+                    <h2>BharatSHRI (Bharat Shared Repository Of Inscriptions)</h2>
+
+                
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="swiper-slide">
+
+                  <img src="assets/img/slider/2.PNG" alt="Bharat SHRI Heritage Banner">
+
+               <div class="caption"><br><br>
+
+                    <h2>21 set of copper plates found in Srisailam, Andhra Pradesh</h2>
+
+                   
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="swiper-slide">
+
+                   <img src="assets/img/slider/3.PNG" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption"><br><br>
+
+                    <h2>Epigraphical refernce to the death of Krishnadevaraya (17 OCT 1529)</h2>
+
+                   
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="swiper-slide">
+
+                   <img src="assets/img/slider/4.PNG" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption"><br><br>
+
+                    <h2>A set of Copper Plates found in Kodada, Telangana</h2>
+
+                    
+
+                </div>
+
+            </div>
+
+
+
+            <div class="swiper-slide">
+
+                  <img src="assets/img/slider/5.PNG" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption">
+
+                    <h2>The Mission: • Preserve • Digitize • Share</h2>
+
+                   
+
+                </div>
+
+            </div>
+
+
+
+            
+
+            <div class="swiper-slide">
+
+                   <img src="assets/img/slider/6.PNG" alt="Bharat SHRI Heritage Banner">
+
+               <div class="caption"><br><br>
+
+                    <h2>Asirgadh seal of sarvavarman </h2>
+
+                  
+
+                </div>
+
+            </div>
+
+
+
+            <div class="swiper-slide">
+
+                   <img src="assets/img/slider/7.PNG" alt="Bharat SHRI Heritage Banner">
+
+               <div class="caption"><br><br>
+
+                    <h2>Kanaganahalli inscribed sculpture of Ashoka </h2>
+
+                  
+
+                </div>
+
+            </div>
+
+
+
+             <div class="swiper-slide">
+
+                  <img src="assets/img/slider/8.PNG" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption">
+
+                    <h2>Pāṇḍya Inscription from  Tirukkoshtiyur, Tamil  Nadu</h2>
+
+                    <p></p>
+
+                </div>
+
+            </div>
+
+
+
+
+
+             <div class="swiper-slide">
+
+                  <img src="assets/img/slider/9.PNG" alt="Bharat SHRI Heritage Banner">
+
+                <div class="caption">
+
+                    <h2>Quwwat-ul Islam Masjid within Qutb Minar Complex</h2>
+
+                    <p></p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <!-- pagination -->
+
+        <div class="swiper-pagination"></div>
+
+
+
+        <!-- navigation -->
+
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-button-next"></div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="center-text">
+
+
+
+    <div class="scroll-text1">
+
+        Sasanas record royal grants, victories, temple donations, and cultural traditions
+
+    </div>
+
+
+
+</div>
+
+
+
+<div class="stats-container">
+
+
+
+    <div class="stat-box">
+
+        <div class="stat-title">METADATA RECORDS</div>
+
+        <div class="stat-number counter"
+
+             data-target="24816"><span id="ctl00_ContentPlaceHolder1_spnnoof">24816</span></div>
+
+        <div class="stat-icon">▤</div>
+
+    </div>
+
+
+
+    <div class="stat-box">
+
+        <div class="stat-title">TRANSCRIPTS</div>
+
+        <div class="stat-number counter"
+
+             data-target="24225">0</div>
+
+        <div class="stat-icon">▤</div>
+
+    </div>
+
+
+
+    <div class="stat-box">
+
+        <div class="stat-title">ESTAMPAGES</div>
+
+        <div class="stat-number counter"
+
+             data-target="20861">0</div>
+
+        <div class="stat-icon">▤</div>
+
+    </div>
+
+
+
+</div>
+
+
+
+ 
+
+
+
+<div class="info-marquee">
+
+    <div class="marquee-content">
+
+
+
+      
+
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <span style="color:#994818;">Website under development process.</span>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<section class="discovery-section glass">
+
+  <div class="discovery-section__container">
+
+
+
+  <!-- Logo -->
+
+    <div class="discovery-logo">
+
+      <img src="assets/img/2.jpg" alt="Logo" class="logo-image">
+
+    </div>
+
+
+
+    <!-- Added Headlines -->
+
+    <div class="discovery-headlines">
+
+      <h1 class="headline-title">Search. Learn. Grow.</h1>
+
+      <p class="headline-subtitle">शासनविवरणानि यः शास्त्रीयेन प्रकाशयेत् ।<br> लिपिभाषाकालतत्त्वं तस्मै शासनकल्पतरवे नमः ॥</p>
+
+      <p class="headline-subtitle">Salutations to the sasana Kalpataru, who illuminates inscriptional details through scholarly methods and explains the principles of script, language, and chronology.</p>
+
+    </div>
+
+
+
+
+
+
+
+   <div class="search-panel glass-panel">
+
+    <div class="search-panel__group">
+
+
+
+        <input name="ctl00$ContentPlaceHolder1$txtsearch" type="text" id="ctl00_ContentPlaceHolder1_txtsearch" class="search-panel__input" placeholder="Search Inscriptions" />
+
+
+
+       <input type="submit" name="ctl00$ContentPlaceHolder1$btnsearch" value="Search" id="ctl00_ContentPlaceHolder1_btnsearch" class="search-panel__button" />
+
+
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ <section class="info-grid-section">
+
+    <!-- News Column -->
+
+    <div class="news-column">
+
+        <div class="section-header">
+
+            <h2>Recent Discoveries</h2>
+
+            <p>Your Gateway to Authentic ASI Updates</p>
+
+        </div>
+
+         <div id="ctl00_ContentPlaceHolder1_discoveriesList"><div class='news-list'><a href='discoveries.aspx#discovery4' class='news-link'><div class='news-card'><div class='news-logo'><img src='assets/img/1.jpg'></div><div class='news-content'><div class='news-meta'><span>First Indian Epigraphical Reference to Halley's Comet found in Srisailam Copper Plate Charter,Andhra Pradesh,dated 1456 CE</span></div><p>Halley's Comet is the only known short-period comet that is consistently visible to the naked eye from Earth, appearing every 72–80 years.Due to its intrinsic brightness, about one eighth of all comet</p></div></div></a><a href='discoveries.aspx#discovery3' class='news-link'><div class='news-card'><div class='news-logo'><img src='assets/img/1.jpg'></div><div class='news-content'><div class='news-meta'><span>Kalyāni Chālukya inscription from Yenikepalli,Telangana</span></div><p>This inscription is engraved on a pillar,found in the village Yenikepalli,Moinabad mandal (Near Chilkur village),Ranga Reddy district,Telangana.</p></div></div></a><a href='discoveries.aspx#discovery2' class='news-link'><div class='news-card'><div class='news-logo'><img src='assets/img/1.jpg'></div><div class='news-content'><div class='news-meta'><span>Krishnadēvarāya copper plates from Rākaṭla,Andhra Pradesh</span></div><p>A set of copper plates found in the village Rākaṭla,Anantapur district,A.P.,presently in the possession of Sri.Sudhakar Thoomati,Hyderabad.</p></div></div></a><a href='discoveries.aspx#discovery1' class='news-link'><div class='news-card'><div class='news-logo'><img src='assets/img/1.jpg'></div><div class='news-content'><div class='news-meta'><span>Nāyakas of Kālahasti chief Kūmara Venkaṭappa Nāyaka Copper plates from Kālahasti,A.P.</span></div><p>A set of copper plates in the possession of Dr.Parusuram Gurukul,Dhandadhikāri of Śrikālahasti Devastanam,Kalahasti,Tirupati district,A.P.</p></div></div></a></div></div>
+
+       
+
+
+
+       
+
+    </div>
+
+
+
+    <!-- Spotlight Column -->
+
+    <div class="spotlight-column">
+
+        <div class="section-header">
+
+            <h2>Spotlight</h2>
+
+            <p>News • Media • Notifications</p>
+
+        </div>
+
+
+
+        <div class="spotlight-box">
+
+            <div class="feature-red-card">
+
+                <img src="assets/img/spotlight.jpg" alt="BharatSHRI">
+
+                <div class="feature-inner">
+
+                 <span class="feat-source">Times of India-</span>
+
+                    <span class="feat-date">January 2026</span>
+
+                    <h3>BharatSHRI – Digital Repository of Inscriptions</h3>
+
+                    <p>ASI launches BharatSHRI to digitize inscriptions, preserve India’s epigraphic legacy, and provide access to scholars, researchers, and the public.</p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Vertical scrolling ticker inside Spotlight -->
+
+            <div class="news-list ticker-list">
+
+                <div class="news-scroll">
+
+
+
+                    <div class="news-item">
+
+                        <h4>ASI to digitize 100,000 inscriptions under BharatSHRI</h4>
+
+                     
+
+                    </div>
+
+                    <div class="news-item">
+
+                        <h4>Epigraphy Branch documents inscriptions from Emperor Aśoka to late medieval period</h4>
+
+                     
+
+                    </div>
+
+                    <div class="news-item">
+
+                        <h4>Preserving inscriptions helps reconstruct India’s political, social, and cultural history</h4>
+
+                       
+
+                    </div>
+
+
+
+                  
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="about-section11">
+
+    <div class="container11">
+
+        <div class="content-side11">
+
+            <div class="red-bg-overlay11"></div>
+
+            <div class="text-content11">
+
+                <h1 class="title11">ABOUT US</h1>
+
+                <blockquote class="quote11">
+
+                    “Timeless estampages echoing centuries of thought and discovery.”
+
+                </blockquote>
+
+                <div class="main-text11">
+
+                    <h2>Welcome to the Archaeological Survey of India (ASI)</h2>
+
+                    <p>The Archaeological Survey of India (ASI) is India’s premier organization responsible for archaeological research, conservation, and protection of cultural heritage.</p>
+
+                    <p>The epigraphy branch conducts epigraphical survey regularly across the country to copy, decipher & editing the  inscriptions. It has been published in the   ASI publications</p>
+
+                    
+
+                    <div class="footer-note11">
+
+                        <strong>Discover India’s past. Preserve its future. Experience its heritage.</strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="gallery-side">
+
+           <div class="single-img-box">
+
+    <img src="assets/img/17.jpeg" alt="Kanishka Sculpture">
+
+
+
+    <h1 class="img-caption">
+
+        Inscribed sculpture of Kanishka, Uttar Pradesh
+
+    </h1>
+
+</div>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="main-wrapper">
+
+    <section class="one-container">
+
+        <div class="banner-left">
+
+            <div class="logo-group">
+
+                <img src="assets/img/bharathshreelogo.png" alt="Ministry Logo">
+
+                
+
+            </div>
+
+            <div class="main-title">
+
+                <h1>BharatSHRI is a flagship digital initiative to create a national repository and virtual museum of India’s
+
+                 ancient inscriptions, enabling their documentation, preservation, and public access through modern technology.
+
+</h1>
+
+               
+
+            
+
+             
+
+
+
+               
+
+            </div>
+
+        </div>
+
+
+
+     <div class="banner-right">
+
+    
+
+
+
+    <img src="assets/img/front.jpeg" class="one-image" alt="Spotlight Image">
+
+
+
+    <div class="image-caption">
+
+        <a href="https://asi.com" target="_blank">Puratatva Bhavan, ASI Mysore</a>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section class="blue-section" id="subscription">
+
+
+
+    <h2 class="bluesection-title">Subscription</h2>
+
+    <div class="underline-accent"></div>
+
+
+
+    <!-- Subscription Box -->
+
+  <div id="ctl00_ContentPlaceHolder1_subbox" class="subscription-box">
+
+    <input name="ctl00$ContentPlaceHolder1$txtemail" type="text" id="ctl00_ContentPlaceHolder1_txtemail" class="email-input" />
+
+
+
+    <input type="submit"
+
+           name="ctl00$ContentPlaceHolder1$btnsub"
+
+           value="Subscribe"
+
+           id="ctl00_ContentPlaceHolder1_btnsub"
+
+           class="subs-btn">
+
+</div>
+
+
+
+<p class="subscription-note">
+
+    Stay informed with verified updates from BharatSHRI, sent to your inbox
+
+</p>
+
+
+
+
+
+
+
+  <div class="otp-box capsule-otp">
+
+    
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+    <div class="pattern pattern-left"></div>
+
+    <div class="pattern pattern-right"></div>
+
+</section>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="feature-wrapper">
+
+    <div class="feature-container">
+
+
+
+     <!-- Heading inside section -->
+
+        <div class="feature-main-heading">
+
+            <h2>Deciphering Our Glorious Past</h2>
+
+        </div>
+
+
+
+
+
+<!-- Row 3 (NEW CONTENT ADDED) -->
+
+<div class="feature-row">
+
+
+
+    <div class="feature-card">
+
+        <div class="feature-icon-box color-brown">
+
+            <i class="fas fa-feather-alt"></i>
+
+        </div>
+
+        <div class="feature-text">
+
+            <h3>Epigraphy</h3>
+
+            <p>The scientific study of inscriptions to understand India’s history, languages, and cultural traditions.</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="feature-card">
+
+        <div class="feature-icon-box color-darkblue">
+
+            <i class="fas fa-scroll"></i>
+
+        </div>
+
+        <div class="feature-text">
+
+            <h3>Inscriptions</h3>
+
+            <p>Original records engraved on stone and metal that serve as primary sources of India’s past.</p>
+
+        </div>
+
+    </div>
+
+
+
+   
+
+
+
+</div>
+
+
+
+<!-- Row 4 (More Detailed Classification) -->
+
+<div class="feature-row">
+
+
+
+ <div class="feature-card">
+
+        <div class="feature-icon-box color-gold">
+
+           <i class="fa-solid fa-ruler-combined"></i>
+
+        </div>
+
+        <div class="feature-text">
+
+            <h3>Estampages</h3>
+
+            <p>Accurate paper impressions taken from inscriptions for safe preservation and scholarly research.</p>
+
+        </div>
+
+    </div>
+
+    <div class="feature-card">
+
+        <div class="feature-icon-box color-teal">
+
+            <i class="fas fa-landmark"></i>
+
+        </div>
+
+        <div class="feature-text">
+
+            <h3>BharatSHRI </h3>
+
+            <p>A national digital initiative providing structured access to India’s epigraphic heritage.</p>
+
+        </div>
+
+    </div>
+
+
+
+   
+
+
+
+</div>
+
+
+
+
+
+    </div>    
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+<!-- ===========================
+
+     FOOTER
+
+=========================== -->
+
+
+
+<!-- Footer Section with 4 Columns -->
+
+<section class="site-bottom">
+
+<h2 class="quick-links-title">Quick Links</h2>
+
+ <div class="bottom-container">
+
+
+
+    <!-- Column 1 -->
+
+    <div class="bottom-col about-col">
+
+<h3 class="col-title">Explore ASI</h3>
+
+      <ul class="support-list">
+
+        <li><a href="https://asi.nic.in/pages/Work-With-ASI/HQ" class="support-link" target="_blank" rel="noopener noreferrer">Application for Internship</a></li>
+
+        <li><a href="https://asi.nic.in/pages/Events-&-Activities/HQ" class="support-link" target="_blank" rel="noopener noreferrer">Events & Activities</a></li>
+
+        <li><a href="https://asi.nic.in/pages/Monuments?utm_source=chatgpt.com" class="support-link" target="_blank" rel="noopener noreferrer">ASI Monuments</a></li>
+
+        <li><a href="https://asi.nic.in/pages/Websites-of-ASI-Circle/HQ?utm_source=chatgpt.com" class="support-link" target="_blank" rel="noopener noreferrer">ASI Circle</a></li>
+
+        <li><a href="https://asi.nic.in/HQ/organisation-view?utm_source=chatgpt.com" class="support-link" target="_blank" rel="noopener noreferrer">ASI Organization Chat</a></li>
+
+         <li><a href="https://asi.nic.in/HQ/gallery/photos#" class="support-link" target="_blank" rel="noopener noreferrer">ASI gallery</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <!-- Column 2 -->
+
+    <div class="bottom-col links-col">
+
+      <h4 class="col-title">Work Careers & Leaning</h4>
+
+      <ul class="support-list">
+
+        <li><a href="https://asi.nic.in/HQ/jobsvacancies/?utm_source=chatgpt.com" class="support-link" target="_blank" rel="noopener noreferrer">ASI Job Vacancies</a></li>
+
+        <li><a href="https://asi.nic.in/HQ/circulars/" class="support-link" target="_blank" rel="noopener noreferrer">ASI Circular</a></li>
+
+        <li><a href="https://asi.nic.in/pages/Pandit-Deen-Dayal-Upadhyay-Institute-of-Archaeology/HQ?utm_source=chatgpt.com" class="support-link" target="_blank" rel="noopener noreferrer">PT. Deendayal Upadhyaya Institute Of Archeology</a></li>
+
+        <li><a href="https://nmma.nic.in/nmma/indexAction.do" class="support-link" target="_blank" rel="noopener noreferrer">National Mission On Monuments  And Antiquties(NMMA)</a></li>
+
+        <li><a href="https://www.namami.gov.in/" class="support-link" target="_blank" rel="noopener noreferrer">National Mission Of Manuscripts</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <!-- Column 3 -->
+
+    <div class="bottom-col support-col">
+
+      <h4 class="col-title">National Cultural Initiatives</h4>
+
+      <ul class="support-list">
+
+        <li><a href="https://vedicheritage.gov.in/" class="support-link" target="_blank" rel="noopener noreferrer">Vedic heritage Portal</a></li>
+
+        <li><a href="https://ncaa.gov.in/repository/" class="support-link" target="_blank" rel="noopener noreferrer">National Cultural Audio Visual Archives(NCAA)</a></li>
+
+        <li><a href="https://aatmanignca.org/" class="support-link" target="_blank" rel="noopener noreferrer">Aatman-Aatmanirbhar Bharat Centre For Design</a></li>
+
+        <li><a href="https://mgmd.gov.in/" class="support-link" target="_blank" rel="noopener noreferrer">Mera Gaon Meri Dharohar</a></li>
+
+        <li><a href="https://india.gov.in/" class="support-link" target="_blank" rel="noopener noreferrer">India.gov.in</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <!-- Column 4 (Social Icons) -->
+
+    <div class="bottom-col social-section">
+
+      <h4 class="col-title">Follow Us</h4>
+
+      <div class="social-row">
+
+        <a href="#" class="social-btn facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="#" class="social-btn twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+
+        <a href="#" class="social-btn instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+
+        <a href="#" class="social-btn linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+
+      </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+  
+
+</section>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+<a href="#" class="accessibility-btn" aria-label="Accessibility">
+
+    <i class="fas fa-universal-access"></i>
+
+    <span>Ctrl++2</span>
+
+</a>
+
+
+
+
+
+<!-- Accessibility Button -->
+
+<a href="javascript:void(0)" class="accessibility-btn" id="openAccessibility">
+
+    <i class="fas fa-universal-access"></i>
+
+    <span>Ctrl+F2</span>
+
+</a>
+
+
+
+<!-- Accessibility Popup -->
+
+<div class="accessibility-popup" id="accessibilityPopup">
+
+
+
+    <div class="popup-header">
+
+        <h3>Accessibility options</h3>
+
+        <button id="closeAccessibility">&times;</button>
+
+    </div>
+
+
+
+    <div class="popup-grid">
+
+
+
+  <div class="box" id="biggerText">
+
+    <span class="tick"><i class="fas fa-check-circle"></i></span>
+
+
+
+    <i class="fas fa-text-height"></i>
+
+    <p>Bigger Text</p>
+
+
+
+    <div class="level">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+</div>
+
+
+
+        <div class="box" id="smallerText">
+
+    <i class="fas fa-text-height"></i>
+
+    <p>Smaller Text</p>
+
+
+
+    <div class="level">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+</div>
+
+
+
+       <div class="box" id="textSpacing">
+
+    <i class="fas fa-arrows-left-right"></i>
+
+    <p>Text Spacing</p>
+
+
+
+    <div class="level">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+</div>
+
+
+
+        <div class="box" id="lineHeight">
+
+    <i class="fas fa-arrows-up-down"></i>
+
+    <p>Line Height</p>
+
+
+
+    <div class="level">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+</div>
+
+
+
+       <div class="box" id="dyslexiaFriendly">
+
+    <i class="fas fa-font"></i>
+
+    <p>Dyslexia Friendly</p>
+
+</div>
+
+<div id="adhdOverlay"></div>
+
+<div class="box" id="adhdMode">
+
+    <i class="fas fa-eye"></i>
+
+    <p>ADHD Mode</p>
+
+</div>
+
+
+
+
+
+ <div class="box" id="saturation">
+
+    <i class="fas fa-adjust"></i>
+
+    <p>Saturation</p>
+
+
+
+    <div class="level">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+</div>
+
+     
+
+      <div class="box" id="lightDark">
+
+    <i class="fas fa-moon"></i>
+
+    <p>Light-Dark</p>
+
+</div>
+
+
+
+     <div class="box" id="invertColors">
+
+    <i class="fas fa-circle-half-stroke"></i>
+
+    <p>Invert Colors</p>
+
+</div>
+
+
+
+       <div class="box" id="highlightLinks">
+
+    <i class="fas fa-link"></i>
+
+    <p>Highlight Links</p>
+
+</div>
+
+
+
+       <div class="box" id="textToSpeech">
+
+    <i class="fas fa-volume-up"></i>
+
+    <p>Text To Speech</p>
+
+</div>
+
+
+
+        <div class="box" id="cursorMode">
+
+    <i class="fas fa-mouse-pointer"></i>
+
+    <p>Cursor</p>
+
+</div>
+
+
+
+     <div class="box" id="pauseAnimation">
+
+    <i class="fas fa-pause-circle"></i>
+
+    <p>Pause Animation</p>
+
+</div>
+
+
+
+        <div class="box" id="hideImages">
+
+    <i class="fas fa-image"></i>
+
+    <p>Hide Images</p>
+
+</div>
+
+
+
+    </div>
+
+
+
+    <div class="popup-footer">
+
+        <button>Reset All Settings</button>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+
+  <div class="footer">
+
+    <div class="footer-track">
+
+
+
+      <!-- First set -->
+
+      <div class="footer-logo">
+
+  <a href="https://ncf.nic.in/" target="_blank">
+
+    <img src="assets/img/a.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://www.indiaculture.nic.in/" target="_blank">
+
+    <img src="assets/img/b.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://asi.nic.in/" target="_blank">
+
+    <img src="assets/img/c.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://www.incredibleindia.gov.in/en" target="_blank">
+
+    <img src="assets/img/d.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://www.mygov.in/" target="_blank">
+
+    <img src="assets/img/e.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+
+
+      <!-- Duplicate set for smooth loop -->
+
+      <div class="footer-logo">
+
+  <a href="https://example.com/page-a" target="_blank">
+
+   <img src="assets/img/a.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://example.com/page-b" target="_blank">
+
+    <img src="assets/img/b.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://example.com/page-c" target="_blank">
+
+    <img src="assets/img/c.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://example.com/page-d" target="_blank">
+
+   <img src="assets/img/d.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+<div class="footer-logo">
+
+  <a href="https://example.com/page-e" target="_blank">
+
+    <img src="assets/img/e.png" alt="">
+
+  </a>
+
+</div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<footer class="asi-footer">
+
+
+
+    <!-- CENTERED FOOTER LINKS -->
+
+    <div class="asi-footer-links center-links">
+
+        <a href="TermsAndConditions.aspx" class="asi-footer-link">Terms & Conditions</a>
+
+        <a href="PrivacyPolicy.aspx" class="asi-footer-link">Privacy Policy</a>
+
+        <a href="CopyrightPolicy.aspx" class="asi-footer-link">Copyright Policy</a>
+
+        <a href="HyperlinkingPolicy.aspx" class="asi-footer-link">Hyperlinking Policy</a>
+
+        <a href="AccessibilityStatement.aspx" class="asi-footer-link">Accessibility Statement</a>
+
+    </div>
+
+
+
+    <!-- COPYRIGHT IN CENTER & COUNTER IN RIGHT -->
+
+    <div class="footer-bottom-row">
+
+
+
+        <div class="asi-footer-copy">
+
+            &copy; 2021 Archaeological Survey of India, Government of India
+
+        </div>
+
+
+
+        <div class="counter-wrapper">
+
+            <a href='https://www.counters-free.net/'>https://www.counters-free.net</a> <script src="https://www.freevisitorcounters.com/auth.php?id=YOUR_ID"></script>
+
+<script src="https://www.freevisitorcounters.com/en/home/counter/1483884/t/7"></script>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+document.querySelector(".dropdown-btn").addEventListener("click", function(e){
+
+    e.preventDefault();
+
+    document.querySelector(".dropdown-menu").classList.toggle("show-menu");
+
+});
+
+
+
+// Close dropdown when clicking outside
+
+window.addEventListener("click", function(e){
+
+    if(!e.target.matches(".dropdown-btn")){
+
+        const dropdowns = document.querySelectorAll(".dropdown-menu");
+
+        dropdowns.forEach(menu => menu.classList.remove("show-menu"));
+
+    }
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const navToggle = document.getElementById("navToggle");
+
+    const navMenu = document.querySelector(".nav-menu");
+
+
+
+    navToggle.addEventListener("click", function () {
+
+        navMenu.classList.toggle("show");
+
+    });
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const dropdowns = document.querySelectorAll(".dropdown-nav");
+
+
+
+    dropdowns.forEach(dropdown => {
+
+        const link = dropdown.querySelector("a");
+
+
+
+        link.addEventListener("click", function(e) {
+
+            e.preventDefault();   // prevent default link
+
+
+
+            // Toggle current dropdown
+
+            dropdown.classList.toggle("active");
+
+
+
+            // Close all other dropdowns
+
+            dropdowns.forEach(other => {
+
+                if(other !== dropdown) {
+
+                    other.classList.remove("active");
+
+                }
+
+            });
+
+        });
+
+    });
+
+
+
+    // Close all dropdowns if clicking outside
+
+    window.addEventListener("click", function(e) {
+
+        dropdowns.forEach(dropdown => {
+
+            if(!dropdown.contains(e.target)) {
+
+                dropdown.classList.remove("active");
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Swiper JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    var heroSwiper = new Swiper("#heroSwiper", {
+
+        loop: true,
+
+        speed: 900,
+
+        autoplay: {
+
+            delay: 3000,
+
+            disableOnInteraction: false,
+
+        },
+
+
+
+        effect: "fade", // smooth fading
+
+        fadeEffect: {
+
+            crossFade: true
+
+        },
+
+
+
+        pagination: {
+
+            el: ".swiper-pagination",
+
+            clickable: true,
+
+        },
+
+
+
+        navigation: {
+
+            nextEl: ".swiper-button-next",
+
+            prevEl: ".swiper-button-prev",
+
+        },
+
+
+
+        slidesPerView: 1
+
+    });
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    </form>
+
+    
+
+    
+
+
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+     
+
+
+
+
+
+
+
+
+
+  <script>
+
+      function toggleMenu() {
+
+          document.querySelector('.nav-links').classList.toggle('show');
+
+      }
+
+</script>
+
+
+
+    <script>
+
+const nav = document.querySelector('nav');
+
+const slider = document.querySelector('.slider');
+
+const sliderHeight = slider.offsetHeight;
+
+
+
+window.addEventListener('scroll', () => {
+
+    if(window.scrollY <= sliderHeight) {
+
+        nav.style.opacity = '1'; // show navbar over slider
+
+    } else {
+
+        nav.style.opacity = '0'; // hide navbar after slider
+
+    }
+
+});
+
+    </script>
+
+    <script>
+
+  const track = document.querySelector('.gallery-track');
+
+const prev = document.querySelector('.prev');
+
+const next = document.querySelector('.next');
+
+
+
+let index = 0;
+
+const itemsToShow = 3; // Number of images visible at a time
+
+const totalItems = document.querySelectorAll('.gallery-item').length;
+
+
+
+prev.addEventListener('click', () => {
+
+  index--;
+
+  if (index < 0) index = totalItems - itemsToShow; // Loop back to end
+
+  track.style.transform = `translateX(-${index * (100 / itemsToShow)}%)`;
+
+});
+
+
+
+next.addEventListener('click', () => {
+
+  index++;
+
+  if (index > totalItems - itemsToShow) index = 0; // Loop back to start
+
+  track.style.transform = `translateX(-${index * (100 / itemsToShow)}%)`;
+
+});
+
+
+
+    </script>
+
+    <script>
+
+    const track = document.querySelector('.gallery-track');
+
+const items = document.querySelectorAll('.gallery-item');
+
+const itemsToShow = 3;
+
+
+
+// Clone first and last items
+
+for (let i = 0; i < itemsToShow; i++) {
+
+  track.appendChild(items[i].cloneNode(true)); // append clone at end
+
+  track.prepend(items[items.length - 1 - i].cloneNode(true)); // prepend clone at start
+
+}
+
+
+
+// Adjust transform index and movement logic to start from the original first item
+
+
+
+    </script>
+
+
+
+
+
+
+
+     <!-- Accessibility  -->
+
+    <script>
+
+const popup = document.getElementById("accessibilityPopup");
+
+
+
+document.getElementById("openAccessibility").onclick = function () {
+
+    popup.style.display = "block";
+
+};
+
+
+
+document.getElementById("closeAccessibility").onclick = function () {
+
+    popup.style.display = "none";
+
+};
+
+
+
+// Close when clicking outside
+
+window.onclick = function(event){
+
+    if(event.target == popup){
+
+        popup.style.display = "none";
+
+    }
+
+};
+
+</script>
+
+
+
+ <!-- bigger size -->
+
+<script>
+
+ let level = 0;
+
+const maxLevel = 4;
+
+
+
+const biggerBtn = document.getElementById("biggerText");
+
+const bars = biggerBtn.querySelectorAll(".level span");
+
+
+
+biggerBtn.onclick = function () {
+
+
+
+    // On the 5th click, reset everything
+
+    if (level >= maxLevel) {
+
+
+
+        document.querySelectorAll(
+
+            "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button"
+
+        ).forEach(function(el){
+
+
+
+            if(el.closest(".accessibility-popup")) return;
+
+
+
+            el.style.fontSize = "";
+
+        });
+
+
+
+        bars.forEach(function(bar){
+
+            bar.classList.remove("active");
+
+        });
+
+
+
+        biggerBtn.classList.remove("active");
+
+
+
+        level = 0;
+
+        return;
+
+    }
+
+
+
+    // Highlight current level
+
+   // Highlight current level
+
+bars[level].classList.add("active");
+
+biggerBtn.classList.add("active");
+
+smallerBtn.classList.add("active");
+
+
+
+// Increase text
+
+document.querySelectorAll(
+
+    "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button"
+
+).forEach(function(el){
+
+
+
+    if(el.closest(".accessibility-popup")) return;
+
+
+
+    const size = parseFloat(getComputedStyle(el).fontSize);
+
+    el.style.fontSize = (size + 2) + "px";
+
+});
+
+    level++;
+
+};
+
+</script>
+
+
+
+
+
+
+
+ <!-- Smaller Size -->
+
+<script>
+
+let smallLevel = 0;
+
+const maxSmallLevel = 4;
+
+
+
+const smallerBtn = document.getElementById("smallerText");
+
+const smallBars = smallerBtn.querySelectorAll(".level span");
+
+
+
+smallerBtn.onclick = function () {
+
+
+
+
+
+    // Stop if there is nothing to decrease
+
+    if (level <= 0) {
+
+        return;
+
+    }
+
+
+
+    // Highlight bar
+
+   if (smallLevel < maxSmallLevel) {
+
+    smallerBtn.classList.add("active");
+
+}
+
+
+
+    // Decrease page text
+
+    document.querySelectorAll(
+
+        "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button"
+
+    ).forEach(function(el){
+
+
+
+        if(el.closest(".accessibility-popup")) return;
+
+
+
+        const size = parseFloat(getComputedStyle(el).fontSize);
+
+        el.style.fontSize = (size - 2) + "px";
+
+    });
+
+
+
+    // Remove one Bigger Text progress bar
+
+level--;
+
+bars[level].classList.remove("active");
+
+
+
+/* ADD THESE 4 LINES */
+
+if(level === 0){
+
+    biggerBtn.classList.remove("active");
+
+    smallerBtn.classList.remove("active");
+
+}
+
+
+
+if (smallLevel < maxSmallLevel) {
+
+    smallLevel++;
+
+}
+
+};
+
+</script>
+
+
+
+ <!-- line spacing -->
+
+<script>
+
+ let spacingLevel = 0;
+
+const maxSpacingLevel = 3;
+
+
+
+const spacingBtn = document.getElementById("textSpacing");
+
+const spacingBars = spacingBtn.querySelectorAll(".level span");
+
+
+
+spacingBtn.onclick = function () {
+
+
+
+    // 4th click: Reset
+
+    if (spacingLevel >= maxSpacingLevel) {
+
+
+
+        document.querySelectorAll(
+
+            "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button,input,textarea"
+
+        ).forEach(function(el){
+
+
+
+            if(el.closest(".accessibility-popup")) return;
+
+
+
+            el.style.lineHeight = "";
+
+        });
+
+
+
+        spacingBars.forEach(function(bar){
+
+            bar.classList.remove("active");
+
+        });
+
+
+
+        spacingBtn.classList.remove("active");
+
+
+
+        spacingLevel = 0;
+
+        return;
+
+    }
+
+
+
+    // Highlight current bar
+
+    spacingBars[spacingLevel].classList.add("active");
+
+    spacingBtn.classList.add("active");
+
+
+
+    // Increase spacing
+
+    document.querySelectorAll(
+
+        "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button,input,textarea"
+
+    ).forEach(function(el){
+
+
+
+        if(el.closest(".accessibility-popup")) return;
+
+
+
+        const current = parseFloat(getComputedStyle(el).lineHeight);
+
+        const base = isNaN(current)
+
+            ? parseFloat(getComputedStyle(el).fontSize)
+
+            : current;
+
+
+
+        el.style.lineHeight = (base + 4) + "px";
+
+    });
+
+
+
+    spacingLevel++;
+
+};
+
+</script>
+
+<!-- Line Height -->
+
+<script>
+
+let lineHeightLevel = 0;
+
+const maxLineHeightLevel = 3;
+
+
+
+const lineHeightBtn = document.getElementById("lineHeight");
+
+const lineHeightBars = lineHeightBtn.querySelectorAll(".level span");
+
+
+
+lineHeightBtn.onclick = function () {
+
+
+
+    // 4th click: Reset
+
+    if (lineHeightLevel >= maxLineHeightLevel) {
+
+
+
+        document.querySelectorAll(
+
+            "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button,input,textarea"
+
+        ).forEach(function(el){
+
+
+
+            if(el.closest(".accessibility-popup")) return;
+
+
+
+            // Restore original line height
+
+            el.style.lineHeight = "";
+
+        });
+
+
+
+        // Remove highlighted bars
+
+        lineHeightBars.forEach(function(bar){
+
+            bar.classList.remove("active");
+
+        });
+
+
+
+        lineHeightBtn.classList.remove("active");
+
+
+
+        // Start again
+
+        lineHeightLevel = 0;
+
+        return;
+
+    }
+
+
+
+    // Highlight current bar
+
+    lineHeightBars[lineHeightLevel].classList.add("active");
+
+    lineHeightBtn.classList.add("active");
+
+
+
+    // Increase line height
+
+    document.querySelectorAll(
+
+        "h1,h2,h3,h4,h5,h6,p,a,span,li,label,button,input,textarea"
+
+    ).forEach(function(el){
+
+
+
+        if(el.closest(".accessibility-popup")) return;
+
+
+
+        let current = parseFloat(getComputedStyle(el).lineHeight);
+
+
+
+        if (isNaN(current)) {
+
+            current = parseFloat(getComputedStyle(el).fontSize) * 1.2;
+
+        }
+
+
+
+        el.style.lineHeight = (current + 4) + "px";
+
+    });
+
+
+
+    lineHeightLevel++;
+
+};
+
+</script>
+
+
+
+<!-- dyslexiaFriendly -->
+
+<script>
+
+ let dyslexiaEnabled = false;
+
+
+
+const dyslexiaBtn = document.getElementById("dyslexiaFriendly");
+
+
+
+dyslexiaBtn.onclick = function () {
+
+
+
+    dyslexiaEnabled = !dyslexiaEnabled;
+
+
+
+    document.querySelectorAll("*").forEach(function(el){
+
+
+
+        // Don't change the accessibility popup
+
+        if(el.closest(".accessibility-popup")) return;
+
+
+
+        if(dyslexiaEnabled){
+
+            el.style.fontFamily = "'Lexend', Arial, sans-serif";
+
+            el.style.letterSpacing = "1px";
+
+            el.style.wordSpacing = "2px";
+
+        }else{
+
+            el.style.fontFamily = "";
+
+            el.style.letterSpacing = "";
+
+            el.style.wordSpacing = "";
+
+        }
+
+
+
+    });
+
+
+
+};
+
+</script>
+
+
+
+<!-- ADHD Mode -->
+
+<script>
+
+let adhdMode = false;
+
+
+
+const adhdBtn = document.getElementById("adhdMode");
+
+const overlay = document.getElementById("adhdOverlay");
+
+
+
+adhdBtn.onclick = function(){
+
+
+
+    adhdMode = !adhdMode;
+
+
+
+    if(adhdMode){
+
+        overlay.style.display = "block";
+
+        adhdBtn.classList.add("active");
+
+    }else{
+
+        overlay.style.display = "none";
+
+        adhdBtn.classList.remove("active");
+
+    }
+
+};
+
+
+
+document.addEventListener("mousemove", function(e){
+
+
+
+    if(!adhdMode) return;
+
+
+
+    const y = (e.clientY / window.innerHeight) * 100;
+
+
+
+    overlay.style.background = `
+
+    linear-gradient(
+
+        to bottom,
+
+        rgba(0,0,0,0.65) 0%,
+
+        rgba(0,0,0,0.65) ${y - 8}%,
+
+
+
+        transparent ${y - 8}%,
+
+        transparent ${y + 8}%,
+
+
+
+        rgba(0,0,0,0.65) ${y + 8}%,
+
+        rgba(0,0,0,0.65) 100%
+
+    )`;
+
+});
+
+</script>
+
+
+
+
+
+<!-- saturation -->
+
+<script>
+
+let saturationLevel = 0;
+
+
+
+const saturationBtn = document.getElementById("saturation");
+
+const saturationBars = saturationBtn.querySelectorAll(".level span");
+
+
+
+saturationBtn.onclick = function(e){
+
+
+
+    e.preventDefault();
+
+
+
+    document.body.classList.remove(
+
+        "saturation-theme1",
+
+        "saturation-theme2",
+
+        "saturation-theme3"
+
+    );
+
+
+
+    saturationBars.forEach(function(bar){
+
+        bar.classList.remove("active");
+
+    });
+
+
+
+    saturationBtn.classList.remove("active");
+
+
+
+    saturationLevel++;
+
+
+
+    if(saturationLevel === 1){
+
+
+
+        document.body.classList.add("saturation-theme1");
+
+
+
+        saturationBars[0].classList.add("active");
+
+        saturationBtn.classList.add("active");
+
+
+
+    }
+
+    else if(saturationLevel === 2){
+
+
+
+        document.body.classList.add("saturation-theme2");
+
+
+
+        saturationBars[0].classList.add("active");
+
+        saturationBars[1].classList.add("active");
+
+        saturationBtn.classList.add("active");
+
+
+
+    }
+
+    else if(saturationLevel === 3){
+
+
+
+        document.body.classList.add("saturation-theme3");
+
+
+
+        saturationBars[0].classList.add("active");
+
+        saturationBars[1].classList.add("active");
+
+        saturationBars[2].classList.add("active");
+
+        saturationBtn.classList.add("active");
+
+
+
+    }
+
+    else{
+
+
+
+        saturationLevel = 0;
+
+
+
+        document.body.classList.remove(
+
+            "saturation-theme1",
+
+            "saturation-theme2",
+
+            "saturation-theme3"
+
+        );
+
+
+
+        saturationBars.forEach(function(bar){
+
+            bar.classList.remove("active");
+
+        });
+
+
+
+        saturationBtn.classList.remove("active");
+
+    }
+
+};
+
+</script>
+
+
+
+<!-- light-dark -->
+
+<script>
+
+ let darkMode = false;
+
+
+
+const lightDarkBtn = document.getElementById("lightDark");
+
+
+
+lightDarkBtn.onclick = function(){
+
+
+
+    darkMode = !darkMode;
+
+
+
+    if(darkMode){
+
+        document.body.classList.add("dark-mode");
+
+        lightDarkBtn.classList.add("active");
+
+    }else{
+
+        document.body.classList.remove("dark-mode");
+
+        lightDarkBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+
+
+
+
+
+
+<!-- hightlight links-->
+
+<script>
+
+let linksOn = false;
+
+
+
+const highlightBtn = document.getElementById("highlightLinks");
+
+
+
+highlightBtn.onclick = function(){
+
+
+
+    linksOn = !linksOn;
+
+
+
+    if(linksOn){
+
+        document.body.classList.add("highlight-links");
+
+        highlightBtn.classList.add("active");
+
+    }
+
+    else{
+
+        document.body.classList.remove("highlight-links");
+
+        highlightBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+<!-- text to speech-->
+
+<script>
+
+ let speechMode = false;
+
+
+
+const speechBtn = document.getElementById("textToSpeech");
+
+
+
+// Turn Text To Speech ON/OFF
+
+speechBtn.onclick = function () {
+
+
+
+    speechMode = !speechMode;
+
+
+
+    if (speechMode) {
+
+        speechBtn.classList.add("active");
+
+    } else {
+
+        speechBtn.classList.remove("active");
+
+        window.speechSynthesis.cancel();
+
+    }
+
+};
+
+
+
+// Speak selected text
+
+document.addEventListener("mouseup", function () {
+
+
+
+    if (!speechMode) return;
+
+
+
+    const text = window.getSelection().toString().trim();
+
+
+
+    if (text.length > 0) {
+
+
+
+        window.speechSynthesis.cancel();
+
+
+
+        const utterance = new SpeechSynthesisUtterance(text);
+
+        utterance.rate = 1;
+
+        utterance.pitch = 1;
+
+        utterance.volume = 1;
+
+
+
+        window.speechSynthesis.speak(utterance);
+
+    }
+
+});
+
+</script>
+
+<!--cursor mode-->
+
+<script>
+
+let cursorOn = false;
+
+
+
+const cursorBtn = document.getElementById("cursorMode");
+
+
+
+cursorBtn.onclick = function(){
+
+
+
+    cursorOn = !cursorOn;
+
+
+
+    if(cursorOn){
+
+        document.body.classList.add("big-cursor");
+
+        cursorBtn.classList.add("active");
+
+    }else{
+
+        document.body.classList.remove("big-cursor");
+
+        cursorBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+<script>
+
+let animationPaused = false;
+
+
+
+const pauseBtn = document.getElementById("pauseAnimation");
+
+
+
+pauseBtn.onclick = function(){
+
+
+
+    animationPaused = !animationPaused;
+
+
+
+    if(animationPaused){
+
+        document.body.classList.add("pause-animations");
+
+        pauseBtn.classList.add("active");
+
+    }
+
+    else{
+
+        document.body.classList.remove("pause-animations");
+
+        pauseBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+<script>
+
+let imagesHidden = false;
+
+
+
+const hideImagesBtn = document.getElementById("hideImages");
+
+
+
+hideImagesBtn.onclick = function(){
+
+
+
+    imagesHidden = !imagesHidden;
+
+
+
+    if(imagesHidden){
+
+        document.body.classList.add("hide-images");
+
+        hideImagesBtn.classList.add("active");
+
+    }
+
+    else{
+
+        document.body.classList.remove("hide-images");
+
+        hideImagesBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+<script>
+
+let invertMode = false;
+
+
+
+const invertBtn = document.getElementById("invertColors");
+
+
+
+invertBtn.onclick = function(){
+
+
+
+    invertMode = !invertMode;
+
+
+
+    if(invertMode){
+
+        document.body.classList.add("invert-mode");
+
+        invertBtn.classList.add("active");
+
+    }else{
+
+        document.body.classList.remove("invert-mode");
+
+        invertBtn.classList.remove("active");
+
+    }
+
+
+
+};
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+document.addEventListener("keydown", function(e){
+
+
+
+    if(e.ctrlKey && e.key === "F2"){
+
+
+
+        e.preventDefault();
+
+
+
+        const popup = document.getElementById("accessibilityPopup");
+
+
+
+        if(popup.style.display === "block"){
+
+            popup.style.display = "none";
+
+        }else{
+
+            popup.style.display = "block";
+
+        }
+
+    }
+
+
+
+});
+
+</script>
+
+</body>
+
+</html>
+
